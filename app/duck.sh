@@ -1,1 +1,1 @@
-echo url="https://www.duckdns.org/update?domains=bulky.duckdns.org&token=eda595a3-f2c8-42a8-8a7a-bfe480d0fd4f&ip=" | curl -k -o /logging/duck.log -K -
+echo url="https://www.duckdns.org/update?domains=bulky.duckdns.org&token=eda595a3-f2c8-42a8-8a7a-bfe480d0fd4f&ip=" | curl -k -o /logging/duckdns/duck.log -K -
