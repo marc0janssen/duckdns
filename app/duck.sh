@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. /config/duckdns/duckdns.ini
+. /config/duckdns.ini
 
 echo ${TOKEN}
 
