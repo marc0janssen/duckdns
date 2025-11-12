@@ -1,2 +1,14 @@
+# Duck DNS Configuration File
+# 
+# Generate your token at: https://www.duckdns.org/install
+# IMPORTANT: Keep this file secure - set permissions to 600 (chmod 600 duckdns.ini)
+
+# Your Duck DNS authentication token
+# Generate at https://www.duckdns.org/install
 TOKEN="xxxxxxxx-yyyy-zzzz-qqqq-wwwwwwwwwwww"
-DOMAIN="www.domain.tld"
+
+# Your Duck DNS domain (without protocol)
+# Example formats:
+#   Single domain:  myserver.duckdns.org
+#   Multiple:       myserver.duckdns.org,backup.duckdns.org
+DOMAIN="www.domain.duckdns.org"
